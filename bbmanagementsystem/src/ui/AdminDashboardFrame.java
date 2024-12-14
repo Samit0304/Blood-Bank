@@ -20,7 +20,7 @@ public class AdminDashboardFrame extends JPanel {
 
     public AdminDashboardFrame() {
         // Set up the background panel with the desired image
-        BackgroundPanel bgPanel = new BackgroundPanel("C:\\Users\\Saurabh\\eclipse-workspace\\bbmanagementsystem\\images\\admin.jpeg"); // Set the correct image path
+        BackgroundPanel bgPanel = new BackgroundPanel("C:\\Users\\Saurabh\\git\\repository\\bbmanagementsystem\\images\\admin.jpeg"); // Set the correct image path
         bgPanel.setLayout(new BorderLayout()); // Use BorderLayout to organize components
 
         // Create form panel for user management

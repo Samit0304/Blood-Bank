@@ -118,7 +118,7 @@ public class ContactUsFrame extends JFrame {
         public BackgroundPanel() {
             // Load the background image
             try {
-                backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\eclipse-workspace\\bbmanagementsystem\\images\\contact.jpeg")); // Set the correct image path
+                backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\git\\repository\\bbmanagementsystem\\images\\contact.jpeg")); // Set the correct image path
             } catch (IOException e) {
                 e.printStackTrace();
             }

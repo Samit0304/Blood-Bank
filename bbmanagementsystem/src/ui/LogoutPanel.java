@@ -71,7 +71,7 @@ public class LogoutPanel extends JPanel {
         public BackgroundPanel() {
             // Load the background image
             try {
-                backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\eclipse-workspace\\bbmanagementsystem\\images\\logout.jpeg")); // Set the correct image path
+                backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\git\\repository\\bbmanagementsystem\\images\\logout.jpeg")); // Set the correct image path
             } catch (IOException e) {
                 e.printStackTrace();
             }

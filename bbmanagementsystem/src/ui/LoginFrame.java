@@ -28,7 +28,7 @@ public class LoginFrame extends JFrame {
 
         try {
             // Load the background image
-            backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\eclipse-workspace\\bbmanagementsystem\\images\\logo.jpeg")); // Ensure the path is correct
+            backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\git\\repository\\bbmanagementsystem\\images\\logo.jpeg")); // Ensure the path is correct
         } catch (IOException e) {
             e.printStackTrace();
         }

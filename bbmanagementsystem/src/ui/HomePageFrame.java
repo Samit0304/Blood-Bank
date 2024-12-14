@@ -13,7 +13,7 @@ public class HomePageFrame extends JPanel {
     public HomePageFrame() {
         // Load the background image
         try {
-            backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\eclipse-workspace\\bbmanagementsystem\\images\\home2.jpeg")); // Set the path to your image
+            backgroundImage = ImageIO.read(new File("C:\\Users\\Saurabh\\git\\repository\\bbmanagementsystem\\images\\homepage.jpeg")); // Set the path to your image
         } catch (IOException e) {
             e.printStackTrace();
         }
